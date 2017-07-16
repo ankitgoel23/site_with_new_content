@@ -1,0 +1,719 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    /*overflow-x: hidden;*/
+}
+
+.navbar {
+    position: absolute;
+}
+
+.container-fluid {
+    min-width: 320px !important;
+    min-height: calc(568px - 45px) !important;
+}
+.section {
+    display: table;
+}
+.section-table {
+    display: table-cell;
+    vertical-align: middle;
+}
+.image-container {
+    position: relative;
+    background: rgba(0, 0, 0, 1);
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    background: white;
+}
+
+.text-over-image {
+    z-index: 2;
+    color: #f1f1f1;
+    font-size: 42px;
+    position: relative;
+    text-align: center;
+    /*padding-top: 27%;*/
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+.highlight-text {
+    color: #ffc749;
+}
+
+.image-container img {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.objective-container {
+    height: calc( 100% - 45px );
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.objective-quote {
+    width: 100%;
+    height: 36%;
+    background: #2faebe;
+    color: #fff;
+    font-size: 32px;
+    padding-left: 6%;
+    padding-right: 6%;
+    /*padding-top: 10%;*/
+    line-height: 50px;
+}
+
+.objective-quote-text {
+    /*padding-top: 11%;*/
+}
+
+.inverted-commas {
+    font-size: 55px;
+}
+
+.objective {
+    height: 64%;
+}
+
+.objective-heading {
+    color: #2faebe;
+    font-size: 86px;
+    stroke: #4d4d4d;
+    /*padding-top: 80px;*/
+    padding-bottom: 30px;
+}
+
+.objective-main {
+    color: #4d4d4d;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.objective-text {
+    color: #666666;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.projects-container {
+    height: calc( 100% - 45px );
+    width: 100%;
+    background: #56bb89;
+    text-align: center;
+}
+
+.projects-heading {
+    font-size: 86px;
+    color: #fff;
+    /*padding-top: 16%;*/
+    padding-bottom: 4%;
+}
+
+.projects-main {
+    color: #4d4d4d;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.projects-text {
+    color: #666;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.education-container {
+    height: calc( 100% - 45px );
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.education-quote {
+    width: 100%;
+    height: 36%;
+    background: #173657;
+    color: #fff;
+    font-size: 32px;
+    padding-left: 6%;
+    padding-right: 6%;
+    /*padding-top: 10%;*/
+    line-height: 50px;
+}
+
+.education-quote-text {
+    /*padding-top: 11%;*/
+}
+
+.education {
+    height: 64%;
+}
+
+.education-heading {
+    color: #174657;
+    font-size: 86px;
+    stroke: #4d4d4d;
+    /*padding-top: 80px;*/
+    padding-bottom: 30px;
+}
+
+.education-main {
+    color: #4d4d4d;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.education-text {
+    color: #666666;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.education-button {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.education-button button {
+    border-radius: 11px;
+    height: 55px;
+    width: 324px;
+    background: #e5e5e5;
+    font-size: 20px;
+    color: #173657;
+}
+
+.new-header-container {
+    height: calc( 100% - 45px );
+    width: 100%;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+.new-header-heading {
+    font-size: 93px;
+    color: #4d4d4d;
+    stroke: #4d4d4d;
+    /*padding-top: 16%;*/
+    padding-bottom: 4%;
+}
+
+.new-header-main {
+    color: #4d4d4d;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.new-header-text {
+    color: #666;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.new-header-button {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.new-header-button button {
+    border-radius: 11px;
+    height: 55px;
+    width: 324px;
+    background: #e5e5e5;
+    font-size: 20px;
+    color: #4d4d4d;
+}
+
+/* Media Queries */
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 319px) {
+    .text-over-image {
+        font-size: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .objective-quote {
+        line-height: 30px;
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+    .objective-quote-text {
+        font-size: 11px;
+        /*padding-top: 20%;*/
+    }
+    .inverted-commas {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .objective-heading {
+        font-size: 25px;
+        /*padding-top: 20px;*/
+        padding-bottom: 10px;
+    }
+    .objective-main {
+        font-size: 13px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .objective-text {
+        font-size: 11px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .projects-heading {
+        font-size: 25px;
+        padding-bottom: 3%;
+    }
+    .projects-main {
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+    .projects-text {
+        font-size: 11px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .education-quote {
+        line-height: 25px;
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+    .education-quote-text {
+        font-size: 11px;
+        /*padding-top: 20%;*/
+    }
+    .education-heading {
+        font-size: 25px;
+        /*padding-top: 20px;*/
+        padding-bottom: 10px;
+    }
+    .education-main {
+        font-size: 13px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .education-text {
+        font-size: 11px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .education-button {
+        padding-top: 20px;
+    }
+    .education-button button {
+        height: 35px;
+        width: 260px;
+        font-size: 13px;
+    }
+    .new-header-heading {
+        font-size: 25px;
+        padding-bottom: 3%;
+    }
+    .new-header-main {
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+    .new-header-text {
+        font-size: 11px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .new-header-button button {
+        height: 35px;
+        width: 260px;
+        font-size: 13px;
+    }
+    .profile-name {
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+    .profile-title {
+        padding-bottom: 8px;
+    }
+    .team-button button {
+        width: 280px;
+        height: 38px;
+        font-size: 13px;
+    }
+    
+} 
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    .text-over-image {
+        font-size: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .objective-quote {
+        line-height: 30px;
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+    .objective-quote-text {
+        font-size: 11px;
+        /*padding-top: 20%;*/
+    }
+    .inverted-commas {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .objective-heading {
+        font-size: 25px;
+        /*padding-top: 20px;*/
+        padding-bottom: 10px;
+    }
+    .objective-main {
+        font-size: 13px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .objective-text {
+        font-size: 11px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .projects-heading {
+        font-size: 25px;
+        padding-bottom: 3%;
+    }
+    .projects-main {
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+    .projects-text {
+        font-size: 11px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .education-quote {
+        line-height: 25px;
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+    .education-quote-text {
+        font-size: 11px;
+        /*padding-top: 20%;*/
+    }
+    .education-heading {
+        font-size: 25px;
+        /*padding-top: 20px;*/
+        padding-bottom: 10px;
+    }
+    .education-main {
+        font-size: 13px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .education-text {
+        font-size: 11px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .education-button {
+        padding-top: 20px;
+    }
+    .education-button button {
+        height: 35px;
+        width: 260px;
+        font-size: 13px;
+    }
+    .new-header-heading {
+        font-size: 25px;
+        padding-bottom: 3%;
+    }
+    .new-header-main {
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+    .new-header-text {
+        font-size: 11px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .new-header-button button {
+        height: 35px;
+        width: 260px;
+        font-size: 13px;
+    }
+    .profile-name {
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+    .profile-title {
+        padding-bottom: 8px;
+    }
+    .team-button button {
+        width: 280px;
+        height: 38px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 320px) {}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+
+@media (max-width: 540px) {}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+    .text-over-image {
+        font-size: 25px;
+    }
+    .objective-quote {
+        line-height: 35px;
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+    .objective-quote-text {
+        font-size: 14px;
+        /*padding-top: 22%;*/
+    }
+    .inverted-commas {
+        font-size: 25px;
+        line-height: 20px;
+    }
+    .objective-heading {
+        font-size: 35px;
+        /*padding-top: 30px;*/
+        padding-bottom: 10px;
+    }
+    .objective-main {
+        font-size: 15px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .objective-text {
+        font-size: 13px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .projects-heading {
+        font-size: 35px;
+        padding-bottom: 3%;
+    }
+    .projects-main {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+    .projects-text {
+        font-size: 13px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .education-quote {
+        line-height: 35px;
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+    .education-quote-text {
+        font-size: 14px;
+        /*padding-top: 22%;*/
+    }
+    .education-heading {
+        font-size: 35px;
+        /*padding-top: 30px;*/
+        padding-bottom: 10px;
+    }
+    .education-main {
+        font-size: 15px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .education-text {
+        font-size: 13px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .education-button button {
+        height: 35px;
+        width: 260px;
+        font-size: 14px;
+    }
+    .new-header-heading {
+        font-size: 35px;
+        padding-bottom: 3%;
+    }
+    .new-header-main {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+    .new-header-text {
+        font-size: 13px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .new-header-button button {
+        height: 35px;
+        width: 260px;
+        font-size: 13px;
+    }
+    .profile-name {
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+    .profile-title {
+        padding-bottom: 8px;
+    }
+    .team-button button {
+        width: 280px;
+        height: 38px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .objective-quote-text {
+        font-size: 25px;
+        /*padding-top: 15%;*/
+    }
+    .inverted-commas {
+        font-size: 45px;
+        line-height: 25px;
+    }
+    .objective-heading {
+        font-size: 75px;
+        /*padding-top: 30px;*/
+        padding-bottom: 15px;
+    }
+    .objective-main {
+        font-size: 20px;
+        padding-bottom: 22px;
+    }
+    .objective-text {
+        font-size: 17px;
+    }
+    .projects-heading {
+        font-size: 80px;
+        padding-bottom: 3%;
+    }
+    .projects-main {
+        font-size: 23px;
+        padding-bottom: 20px;
+    }
+    .projects-text {
+        font-size: 18px;
+    }
+    .education-quote-text {
+        font-size: 25px;
+        /*padding-top: 15%;*/
+    }
+    .education-heading {
+        font-size: 75px;
+        /*padding-top: 30px;*/
+        padding-bottom: 15px;
+    }
+    .education-main {
+        font-size: 20px;
+        padding-bottom: 22px;
+    }
+    .education-text {
+        font-size: 17px;
+    }
+    .education-button button {
+        height: 40px;
+        width: 300px;
+        font-size: 18px;
+    }
+    .new-header-heading {
+        font-size: 80px;
+        padding-bottom: 3%;
+    }
+    .new-header-main {
+        font-size: 23px;
+        padding-bottom: 20px;
+    }
+    .new-header-text {
+        font-size: 18px;
+    }
+    .new-header-button button {
+        height: 40px;
+        width: 300px;
+        font-size: 18px;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (max-width: 900px) {}
+
+
+/* Large Devices, Wide Screens */
+
+@media (max-width: 1024px) {}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .search-bar-container {
+        padding-bottom: 0;
+    }
+    .search-bar-container input {
+        height: 52px;
+    }
+    .profile-pic img {
+        width: 148px;
+        height: 201px;
+    }
+    .profile-pic figure {
+        /*padding-left: 18%;*/
+    }
+    .team-button {
+        padding-top: 7px;
+        padding-bottom: 16px;
+    }
+    #effect-2 figure figcaption {
+        /*left: 18%;*/
+        width: 148px;
+    }
+    .profile-name {
+        margin-top: 15px;
+        margin-bottom: 7px;
+    }
+    .profile-title {
+        padding-bottom: 5px;
+    }
+}
+
+@media only screen and (min-width: 1069px) {}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (min-width: 1300px) and (max-width: 1439px) {
+    .search-bar-container {
+        padding-top: 45px;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .team-button {
+        padding-top: 0;
+    }
+}

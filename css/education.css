@@ -1,0 +1,304 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-header-lower li {
+    padding: 0 20px !important;
+    font-size: 11.5px !important;
+}
+
+.back-arrow {
+    margin-left: -40%;
+}
+
+.navbar {
+    position: absolute;
+}
+
+.container {
+    height: 100%;
+}
+
+.educational-approach h1 {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.educational-approach p {
+    padding-top: 20px;
+    color: #fff;
+}
+
+.educational-approach img {
+    width: 68%;
+}
+
+.section {
+    display: table;
+}
+
+.section-table {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+}
+
+.classroom h1 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.classroom p {
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.classroom img {
+    width: 65%;
+}
+
+.real-world-application h1 {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    color: #fff;
+}
+
+.real-world-application p {
+    padding-top: 40px;
+    color: #fff;
+}
+
+.real-world-application img {
+    width: 68%;
+}
+
+.curriculum h1,
+.digital-tools h1 {
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.curriculum p,
+.digital-tools p {
+    color: #fff;
+}
+
+.curriculum img,
+.digital-tools img {
+    width: 68%;
+}
+
+.continuous-innovations h1 {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    color: #fff;
+}
+
+.continuous-innovations p {
+    padding-top: 40px;
+    color: #fff;
+}
+
+.continuous-innovations img {
+    width: 68%;
+}
+
+.fp-auto-height-responsive {
+    min-height: 568px !important;
+    min-width: 320px !important;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background: #fff !important;
+    border-radius: 5px !important;
+    border: 2px solid #fff !important;
+    width: 12px !important;
+    height: 12px !important;
+}
+
+#fp-nav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li a.active span,
+.fp-slidesNav ul li:hover a.active span {
+    background: transparent !important;
+    border: 2px solid #fff;
+    margin: -2px 0 0 -2px !important;
+    border-radius: 5px;
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {
+    h1 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 11px;
+    }
+    .curriculum img {
+        width: 70% !important;
+    }
+    .digital-tools img {
+        width: 60% !important;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    h1 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 11px;
+    }
+    .curriculum img {
+        width: 70% !important;
+    }
+    .digital-tools img {
+        width: 60% !important;
+    }
+}
+
+@media only screen and (min-width: 320px) {}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 375px) and (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 13px;
+    }
+    .curriculum img {
+        width: 70%;
+    }
+    .digital-tools img {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (min-width: 481px) {}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    h1 {
+        font-size: 28px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+    .curriculum img {
+        width: 55%;
+    }
+    .digital-tools img {
+        width: 45%;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 767px) {
+    .section-table {
+        display: table;
+    }
+    .container {
+        text-align: center;
+    }
+    .curriculum img {
+        padding-top: 20px;
+    }
+    .curriculum img,
+    .digital-tools img {
+        display: table-footer-group;
+        margin: 0 auto;
+    }
+    .curriculum,
+    .digital-tools {
+        text-align: center;
+        display: table-header-group;
+    }
+    .navbar-toggle {
+        float: none;
+        margin-right: 0;
+    }
+    .header-lower-toggle-button {
+        margin: 0 !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .header-lower-arrow-down {
+        font-size: 15px;
+    }
+    #header-lower li {
+        font-size: 11px !important;
+        display: block !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #myNavbar {
+        padding: 0 !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    #header-lower ul {
+        width: 100%;
+    }
+    #header-lower li {
+        font-size: 10px !important;
+        padding: 0 10px !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1023px) {}
+
+
+/* Large Devices, Wide Screens */
+
+@media (max-width: 1024px) {}
+
+@media (min-width: 1024px) and (max-width: 1200px) {}
+
+@media only screen and (min-width: 1069px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+    .educational-approach img {
+        width: 65% !important;
+    }
+    .classroom img {
+        width: 65% !important;
+    }
+    .real-world-application img {
+        width: 65% !important;
+    }
+    .real-world-application img {
+        width: 65% !important;
+    }
+    .curriculum img,
+    .digital-tools img {
+        width: 65% !important;
+    }
+    .continuous-innovations img {
+        width: 65% !important;
+    }
+}

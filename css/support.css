@@ -1,0 +1,1143 @@
+.navbar-header-lower li {
+    padding: 0 20px !important;
+    font-size: 11.5px !important;
+}
+
+.back-arrow {
+    /*margin-left: -40%;*/
+}
+
+.donation-box {
+    height: 100%;
+    display: none;
+}
+
+.donation-box-container {
+    height: 100%;
+}
+
+.center-align {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.boxes {
+    padding-top: 20%;
+    height: 80%;
+    padding-bottom: 10%;
+    border-bottom: 1px solid black;
+}
+
+.boxes > div {
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding-top: 10px;
+}
+
+.make-a-donation-box {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.volunteer-with-us-box {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.boxes h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.radio {
+    font-size: 22px;
+}
+
+.radio-dollars {
+    padding-left: 15px;
+}
+
+.make-a-donation-box p {
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.join-our-team-button {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.join-our-team-button button {
+    border-radius: 11px;
+    height: 45px;
+    width: 200px;
+    background: #e5e5e5;
+    font-size: 18px;
+    color: #173657;
+}
+
+.boxes-footer {
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 30px;
+    /*margin-top: 140px;*/
+    /*border-top: 1px solid black;*/
+    height: 20%;
+}
+
+.why-donate-container {
+    height: 100%;
+    display: table;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.why-donate h1 {
+    font-size: 55px;
+}
+
+.why-donate p {
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+.why-donate-button {
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.why-donate-button button {
+    border-radius: 11px;
+    height: 55px;
+    width: 324px;
+    background: #e5e5e5;
+    font-size: 20px;
+    color: #173657;
+}
+
+.being-a-volunteer-container {
+    display: table;
+    height: 100%;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 60px;
+}
+
+.being-a-volunteer-button {
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.being-a-volunteer-button button {
+    border-radius: 11px;
+    height: 55px;
+    width: 324px;
+    background: #e5e5e5;
+    font-size: 20px;
+    color: #173657;
+}
+
+.corporate-partnership-container {
+    display: table;
+    height: 100%;
+}
+
+.our-supporters-container {
+    height: 100%;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 110px;
+}
+
+.our-supporters-container h1 {
+    font-size: 30px;
+}
+
+.supporters-dollar {
+    padding-top: 5px;
+}
+
+.supporters-dollar h3 {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    font-size: 22px;
+}
+
+.block {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.block-table {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.block-table form {
+    /*padding: 50px;*/
+    margin: 0 auto;
+    max-width: 500px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: snow;
+    border-radius: 8px;
+}
+
+.background-body {
+    background: white;
+}
+
+.cross-icon {
+    position: relative;
+    padding-right: 5px;
+    float: right;
+    z-index: 5;
+}
+
+.cross-icon a {
+    color: #000;
+}
+
+.user-details {
+    padding: 30px;
+    margin-top: 100px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.user-details input {
+    /*border: none;*/
+    /*border-bottom: 1px solid black;*/
+    background: snow;
+    width: 100%;
+    font-size: 12px;
+}
+
+.user-details input:focus {
+    outline: none;
+}
+
+#firstName {
+    width: 100%;
+}
+
+#lastName {
+    width: 100%;
+}
+
+.amount-block {
+    text-align: center;
+    width: 20%;
+    font-size: 10px;
+    display: inline-block;
+    background: #b3b3b3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 3.5%;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.amount-block:focus,
+.amount-block:hover {
+    background: black;
+    cursor: pointer;
+}
+
+.active-amount {
+    background: black;
+}
+
+.donation-amount-select {
+    border: none;
+    background: snow;
+    height: 60px !important;
+}
+
+.other-amount-block {
+    padding-top: 5px;
+}
+
+.other-amount-block .control-label {
+    font-size: 11px;
+    padding-top: 7px;
+}
+
+.other-amount-block input {
+    background: snow;
+    width: 50% !important;
+    height: 28px;
+    font-size: 11px;
+    /*border: none;*/
+    /*border-bottom: 1px solid black;*/
+}
+
+.cardNo::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #e8e7dd;
+}
+
+.cardNo:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #e8e7dd;
+    opacity: 1;
+}
+
+.cardNo::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #e8e7dd;
+    opacity: 1;
+}
+
+.cardNo:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #e8e7dd;
+}
+
+.submit-full-width {
+    width: 100%;
+    height: 40px;
+    background: #2f2b2b;
+    color: #e8e7dd;
+    border: none;
+    border-radius: 0 0 8px 8px;
+    text-shadow: none;
+}
+
+.submit-full-width:hover {
+    background: #6f6f6f;
+    color: white;
+}
+
+.card-display {
+    display: none;
+    height: 35px;
+}
+
+.credit-card {
+    font-size: 35px;
+}
+
+.cardDetails {
+    padding-top: 30px;
+    /*background: #666699;*/
+    /*background: snow;*/
+    /*color: white;*/
+    height: 250px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.donationDetails {
+    height: 250px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    /*background: antiquewhite;*/
+}
+
+.donationDetails h3 {
+    padding-bottom: 15px;
+}
+
+.selectCard select {
+    /*background: #666699;*/
+    background: snow;
+    border: none;
+    color: #000;
+    font-size: 25px;
+    padding: 0;
+}
+
+.card-number-label {
+    padding-top: 15px;
+    color: #000;
+}
+
+.cardNo {
+    padding: 0;
+    padding-top: 15px;
+    z-index: 10;
+    text-align: center;
+    display: inline-block;
+}
+
+.cardNo input {
+    /*text-align: center;*/
+    /*background: #666699;*/
+    background: snow;
+    color: #000;
+    /*border: none;*/
+    font-size: 12px;
+    border-bottom: 2px solid #e8e7dd;
+    height: 30px;
+    padding: 0;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+/*
+.cardNo input:focus {
+    outline: none;
+    color: #000;
+}*/
+
+.col-sm-offset-05 {
+    margin-left: 4.5%;
+}
+
+.cardNo .col-sm-offset-05 {
+    margin-left: 3.5%;
+}
+
+.cardNo .col-sm-2 {
+    width: 20%;
+}
+
+.cardNo .col-sm-offset-1 {
+    margin-left: 4%;
+}
+
+.card-month-cvv {
+    padding-top: 15px;
+}
+
+.card-month-cvv select {
+    /*background: #666699;*/
+    background: snow;
+    border: none;
+    color: #000;
+    font-size: 12px;
+    padding: 0;
+    text-align-last: center;
+}
+
+.card-month-cvv input {
+    text-align: center;
+    /*background: #666699;*/
+    background: snow;
+    color: #000;
+    /*border: none;*/
+    font-size: 12px;
+    border-bottom: 2px solid #e8e7dd;
+    padding: 0;
+    padding-top: 8px;
+}
+
+.card-month-cvv .col-sm-4 {
+    padding: 0;
+}
+
+
+/* voluneer.html */
+
+.form-for-volunteer {
+    height: auto !important;
+}
+
+.para {
+    margin-top: 100px;
+    background: lightblue;
+    padding: 30px;
+    position: relative;
+}
+
+.para h1 {
+    font-size: 22px;
+}
+
+.clickme {
+    color: #fff;
+    border-bottom: 2px dotted white;
+    position: relative;
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    background: #333;
+    /*top: -150%;*/
+    bottom: 100%;
+    /*left: 32%;*/
+    min-width: 150px;
+    z-index: 10;
+}
+
+.popup ul {
+    list-style: none;
+    font-size: 12px;
+    color: snow;
+    text-align: center;
+    border-left: 1px dotted grey;
+    border-right: 1px dotted grey;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+}
+
+.popup li {
+    border-bottom: 1px dotted grey;
+    border-top: 1px dotted grey;
+    padding: 4px;
+}
+
+
+/* popup arrow */
+
+.popup::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: antiquewhite transparent transparent transparent;
+}
+
+.popup li:hover {
+    color: #3d7483;
+}
+
+.iam-popup {}
+
+.volunteer-opportunity-popup {
+    min-width: 380px;
+}
+
+.volunteer-opportunity-popup ul {
+    /*padding-right: 10px;*/
+}
+
+.area-popup {}
+
+.date-popup {
+    text-align: center;
+    width: 280px;
+    height: 45px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.date-popup select {
+    background: black;
+    color: snow;
+}
+
+.date {
+    font-size: 18px;
+    width: 50px;
+}
+
+.month {
+    font-size: 18px;
+}
+
+
+/* Media Queries */
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 374px) and (max-height: 600px) {
+    .boxes {
+        padding-top: 54% !important;
+        height: 218% !important;
+    }
+}
+
+@media only screen and (max-width: 374px) and (min-height: 601px) and (max-height: 740px) {
+    .boxes {
+        padding-top: 54% !important;
+        height: 195% !important;
+    }
+    .volunteer-with-us-box {
+        margin-bottom: 13% !important;
+    }
+}
+
+@media only screen and (max-width: 374px) {
+    .navbar-header-lower li {
+        padding: 0 2px !important;
+        font-size: 8.5px !important;
+    }
+    .boxes {
+        padding-top: 75%;
+        height: 172%;
+    }
+    .boxes > div {
+        height: 380px;
+    }
+    .boxes h2 {
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+    .radio {
+        font-size: 14px;
+        padding-left: 25px;
+    }
+    .join-our-team-button button {
+        font-size: 14px;
+        width: 140px;
+        height: 40px;
+    }
+    .boxes-footer {
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+        /*padding-top: 9px;*/
+    }
+    .make-a-donation-box {
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 75%;
+    }
+    .volunteer-with-us-box {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-bottom: 45%;
+    }
+    .why-donate-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .why-donate h1 {
+        font-size: 20px;
+    }
+    .why-donate p {
+        font-size: 10px;
+    }
+    .why-donate-button button {
+        height: 30px;
+        width: 204px;
+        font-size: 14px;
+    }
+    .user-details {
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) and (max-height: 740px) {
+    .boxes {
+        padding-top: 40% !important;
+        height: 185% !important;
+    }
+    .volunteer-with-us-box {
+        margin-bottom: 13% !important;
+    }
+    .why-donate-container {
+        padding-top: 100px !important;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .navbar-header-lower li {
+        padding: 0 3px;
+        font-size: 10px;
+    }
+    .boxes {
+        padding-top: 60%;
+        height: 172%;
+    }
+    .boxes > div {
+        height: 380px;
+    }
+    .boxes h2 {
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+    .radio {
+        font-size: 14px;
+        padding-left: 25px;
+    }
+    .join-our-team-button button {
+        font-size: 14px;
+        width: 140px;
+        height: 40px;
+    }
+    .boxes-footer {
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+        /*padding-top: 9px;*/
+    }
+    .make-a-donation-box {
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 75%;
+    }
+    .volunteer-with-us-box {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-bottom: 45%;
+    }
+    .why-donate-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .why-donate h1 {
+        font-size: 35px;
+    }
+    .why-donate p {
+        font-size: 14px;
+    }
+    .why-donate-button button {
+        height: 40px;
+        width: 254px;
+        font-size: 17px;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+
+@media only screen and (min-width: 425px) and (max-width: 539px) {
+    .navbar-header-lower li {
+        padding: 0 6px;
+        font-size: 11px;
+    }
+    .boxes {
+        padding-top: 55%;
+        height: 172%;
+    }
+    .boxes > div {
+        height: 380px;
+        margin-bottom: 60%;
+    }
+    .boxes h2 {
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+    .radio {
+        font-size: 14px;
+        padding-left: 25px;
+    }
+    .join-our-team-button button {
+        font-size: 14px;
+        width: 140px;
+        height: 40px;
+    }
+    .boxes-footer {
+        font-size: 14px;
+        padding-left: 40px;
+        padding-right: 40px;
+        /*padding-top: 13px;*/
+    }
+    .make-a-donation-box {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .volunteer-with-us-box {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .why-donate-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .why-donate h1 {
+        font-size: 35px;
+    }
+    .why-donate p {
+        font-size: 14px;
+    }
+    .why-donate-button button {
+        height: 40px;
+        width: 254px;
+        font-size: 17px;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 540px) and (max-width: 767px) {
+    .navbar-header-lower li {
+        padding: 0 15px;
+        font-size: 12px;
+    }
+    .boxes {
+        padding-top: 20%;
+        height: 90%;
+        min-height: 700px;
+    }
+    .boxes > div {
+        height: 300px;
+        margin-bottom: 15px;
+    }
+    .boxes h2 {
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+    .radio {
+        font-size: 11px;
+        padding-left: 20px;
+    }
+    .join-our-team-button button {
+        font-size: 12px;
+        width: 100px;
+        height: 25px;
+    }
+    .boxes-footer {
+        font-size: 13px;
+        padding-left: 40px;
+        padding-right: 40px;
+        /*padding-top: 20px;*/
+    }
+    .make-a-donation-box {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .volunteer-with-us-box {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .why-donate-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .why-donate h1 {
+        font-size: 35px;
+    }
+    .why-donate p {
+        font-size: 14px;
+    }
+    .why-donate-button button {
+        height: 40px;
+        width: 254px;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header-lower-arrow-down {
+        font-size: 15px;
+    }
+    #header-lower button {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    #header-lower li {
+        font-size: 11px !important;
+        display: block !important;
+    }
+    .donate-now {
+        display: none !important;
+    }
+    .donate-now-outside-header {
+        position: absolute;
+        right: 3%;
+        top: 2px;
+    }
+    .cardDetails {
+        height: auto;
+    }
+    #cardMonth {
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    #cardMonth {
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    #cardcvv {
+        margin-top: 5px;
+        margin-bottom: 20px;
+        margin-left: 2.7%;
+        width: 95%;
+    }
+    #cardYear {
+        margin-bottom: 20px;
+    }
+    #firstName,
+    #lastName {
+        width: 100%;
+    }
+    .para ul {
+        font-size: 13px;
+    }
+    .para h1 {
+        font-size: 18px;
+    }
+    .popup {
+        bottom: 62%;
+        position: fixed;
+    }
+    .volunteer-opportunity-popup {
+        min-width: 320px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .donate-now-outside-header {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .boxes {
+        padding-top: 16%;
+        height: 87%;
+        min-height: 700px;
+    }
+    .boxes > div {
+        height: 280px;
+        margin-bottom: 15px;
+    }
+    .boxes h2 {
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+    .radio {
+        font-size: 12px;
+    }
+    .join-our-team-button button {
+        font-size: 13px;
+        width: 120px;
+        height: 30px;
+    }
+    .boxes-footer {
+        font-size: 16px;
+    }
+    #header-lower ul {
+        width: 100%;
+    }
+    #header-lower li {
+        font-size: 10px !important;
+        padding: 0 10px !important;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+    .block form {
+        width: 60%;
+        height: 500px;
+    }
+    .user-details {
+        height: 45%;
+        padding-top: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .toggleTableCell {
+        display: table-cell !important;
+    }
+    .boxes-footer {
+        height: auto !important;
+    }
+    .being-a-volunteer-container img {
+        width: 80% !important;
+    }
+    .being-a-volunteer-container {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .being-a-volunteer h1 {
+        font-size: 30px;
+    }
+    .being-a-volunteer p {
+        font-size: 13px;
+    }
+    .being-a-volunteer-button button {
+        height: 45px;
+        width: 214px;
+        font-size: 16px;
+    }
+    .our-supporters-container {
+        height: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 80px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .our-supporters-container h1 {
+        font-size: 24px;
+    }
+    .our-supporters-container p {
+        font-size: 12px;
+    }
+    .supporters-dollar {
+        padding-top: 3px;
+    }
+    .supporters-dollar h3 {
+        border-bottom: 1px solid black;
+        padding-bottom: 3px;
+        font-size: 16px;
+    }
+    .user-details {
+        margin-top: 120px;
+    }
+    .block-table form {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Large Devices, Wide Screens */
+
+@media (max-width: 1024px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .boxes h2 {
+        font-size: 23px;
+    }
+    .radio {
+        font-size: 20px;
+        padding-top: 2px;
+    }
+    .join-our-team-button button {
+        font-size: 16px;
+        width: 160px;
+        height: 40px;
+    }
+    .boxes-footer {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 1069px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+    .boxes {
+        padding-top: 13%;
+        min-height: 560px;
+    }
+    .our-supporters-container {
+        height: 100%;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-top: 80px;
+    }
+    .our-supporters-container h1 {
+        font-size: 24px;
+    }
+    .our-supporters-container p {
+        font-size: 12px;
+    }
+    .supporters-dollar {
+        padding-top: 3px;
+    }
+    .supporters-dollar h3 {
+        border-bottom: 1px solid black;
+        padding-bottom: 3px;
+        font-size: 16px;
+    }
+    .user-details {
+        padding: 10px;
+        margin-top: 110px;
+    }
+    .submit-full-width {
+        height: 10%;
+    }
+    .cardDetails {
+        height: 45%;
+        padding-top: 15px;
+    }
+    .donationDetails {
+        height: 45%;
+        padding-top: 0;
+    }
+    .selectCard select {
+        font-size: 20px;
+        height: 45px;
+    }
+    .selectCard option {
+        font-size: 12px;
+    }
+    .cardDetails {
+        padding-top: 15px;
+    }
+    .cardNo input {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1300px) {
+    .boxes {
+        padding-top: 12%;
+        min-height: 525px;
+    }
+    .boxes-footer {
+        font-size: 25px;
+    }
+    .our-supporters-container {
+        height: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 90px;
+    }
+    .our-supporters-container h1 {
+        font-size: 26px;
+    }
+    .supporters-dollar {
+        padding-top: 3px;
+    }
+    .supporters-dollar h3 {
+        border-bottom: 1px solid black;
+        padding-bottom: 3px;
+        font-size: 18px;
+    }
+    .user-details {
+        padding: 10px;
+        padding-top: 30px;
+        margin-top: 120px;
+    }
+    .submit-full-width {
+        height: 10%;
+    }
+    .cardDetails {
+        height: 45%;
+        padding-top: 15px;
+    }
+    .donationDetails {
+        height: 45%;
+        padding-top: 0;
+    }
+    .donationDetails h3 {
+        padding-bottom: 5px;
+    }
+    .user-details .form-group {
+        margin-bottom: 12px;
+    }
+    .selectCard select {
+        font-size: 20px;
+        height: 45px;
+    }
+    .cardNo input {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1301px) {
+    .boxes {
+        padding-top: 16%;
+        min-height: 650px;
+    }
+    .user-details {
+        margin-top: 120px;
+    }
+    .selectCard select {
+        height: 55px;
+    }
+    .submit-full-width {
+        height: 10%;
+    }
+    .cardDetails {
+        height: 45%;
+        padding-top: 15px;
+    }
+    .donationDetails {
+        height: 45%;
+        padding-top: 0;
+    }
+}
